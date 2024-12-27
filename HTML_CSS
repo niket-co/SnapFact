@@ -1,0 +1,149 @@
+<html>
+ <head>
+  <title>
+   Daily Dose of Productivity
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+            font-family: 'Roboto', sans-serif;
+        }
+        .card {
+            display: none;
+        }
+        .card.active {
+            display: block;
+        }
+  </style>
+ </head>
+ <body class="bg-gray-100 flex items-center justify-center min-h-screen">
+  <div class="bg-white p-8 rounded-lg shadow-lg w-full max-w-md text-center relative">
+   <h1 class="text-2xl font-bold mb-4">
+    Daily Dose of Productivity
+   </h1>
+   <div class="overflow-hidden h-96 relative">
+    <div class="card active" id="card1">
+     <img alt="Image of a simple knot being tied" class="w-full h-48 object-cover rounded mb-4" height="200" src="https://storage.googleapis.com/a1aa/image/IW4KNWW1GbK6PdPqWT9OY1d7b41FuXaDDFv9QlPPySs51ufJA.jpg" width="300"/>
+     <p class="text-lg">
+      Did you know? You can learn to tie a simple knot in under a minute!
+     </p>
+    </div>
+    <div class="card" id="card2">
+     <img alt="Image of an organized desktop" class="w-full h-48 object-cover rounded mb-4" height="200" src="https://storage.googleapis.com/a1aa/image/rz9E7EzGndayIhHeb0GSYs0pcBhJWHZhJ28eCPzRKZWdX7enA.jpg" width="300"/>
+     <p class="text-lg">
+      Quick Tip: Organize your desktop icons for a cleaner workspace.
+     </p>
+    </div>
+    <div class="card" id="card3">
+     <img alt="Infographic on boiling an egg perfectly" class="w-full h-48 object-cover rounded mb-4" height="200" src="https://storage.googleapis.com/a1aa/image/LofviC784u0uXqediMzZjDXfz1a8D1yvUqJeqW2b6eHG7a3fE.jpg" width="300"/>
+     <p class="text-lg">
+      Skill: Learn to boil an egg perfectly in just 6 minutes.
+     </p>
+    </div>
+    <div class="card" id="card4">
+     <img alt="Image of a glass of water" class="w-full h-48 object-cover rounded mb-4" height="200" src="https://storage.googleapis.com/a1aa/image/OiOheov4APwHfktFbMekQhl12MSxOeUqOhCiQ3Lgaeg67a3fE.jpg" width="300"/>
+     <p class="text-lg">
+      Fact: Drinking water first thing in the morning boosts your metabolism.
+     </p>
+    </div>
+    <div class="card" id="card5">
+     <img alt="Image of a keyboard with shortcut keys highlighted" class="w-full h-48 object-cover rounded mb-4" height="200" src="https://storage.googleapis.com/a1aa/image/anQp7GHZkR53LB41FvL6VGfzEnLcDN1FqOrDPc2ZIfwVX7enA.jpg" width="300"/>
+     <p class="text-lg">
+      Tip: Use keyboard shortcuts to increase your productivity.
+     </p>
+    </div>
+    <div class="card" id="card6">
+     <img alt="Infographic on folding a t-shirt quickly" class="w-full h-48 object-cover rounded mb-4" height="200" src="https://storage.googleapis.com/a1aa/image/E5hkQy10FMo0ChkAQHhH8MfPzyBjPDOgWYTjGlvcxRZrrdfTA.jpg" width="300"/>
+     <p class="text-lg">
+      Skill: Learn to fold a t-shirt in under 2 seconds.
+     </p>
+    </div>
+    <div class="card" id="card7">
+     <img alt="Image of a person taking a break" class="w-full h-48 object-cover rounded mb-4" height="200" src="https://storage.googleapis.com/a1aa/image/9Hb4rtzsK0LpKFjsXtcTkJyfPJifsrKwq4kSKSzSSLKRX7enA.jpg" width="300"/>
+     <p class="text-lg">
+      Fact: Taking short breaks during work can improve focus and productivity.
+     </p>
+    </div>
+    <div class="card" id="card8">
+     <img alt="Image of a decluttered workspace" class="w-full h-48 object-cover rounded mb-4" height="200" src="https://storage.googleapis.com/a1aa/image/C3Km5hvOKUp3H9BGscserdoTgdpmk7EtkRHUhFfznvNhX7enA.jpg" width="300"/>
+     <p class="text-lg">
+      Tip: Declutter your workspace to reduce stress and increase efficiency.
+     </p>
+    </div>
+    <div class="card" id="card9">
+     <img alt="Infographic on making a quick smoothie" class="w-full h-48 object-cover rounded mb-4" height="200" src="https://storage.googleapis.com/a1aa/image/g1QnDCtRp6YZI9fu942Wheg7Qbkmd5X3pm57tpAmZSWaX7enA.jpg" width="300"/>
+     <p class="text-lg">
+      Skill: Learn to make a quick and healthy smoothie in under a minute.
+     </p>
+    </div>
+    <div class="card" id="card10">
+     <img alt="Image of a person writing down goals" class="w-full h-48 object-cover rounded mb-4" height="200" src="https://storage.googleapis.com/a1aa/image/hoSCWYs5OOKRPZQXuM16GRshGrS6dd9bsSIdHRTif35prdfTA.jpg" width="300"/>
+     <p class="text-lg">
+      Fact: Writing down your goals increases the likelihood of achieving them.
+     </p>
+    </div>
+    <div class="card" id="card11">
+     <img alt="Image of a to-do list" class="w-full h-48 object-cover rounded mb-4" height="200" src="https://storage.googleapis.com/a1aa/image/ovfvBB1LVjVgf0wjgjwsL5zUuoeB5x0EtMpC0OSpBoIHv29nA.jpg" width="300"/>
+     <p class="text-lg">
+      Tip: Use a to-do list to keep track of your daily tasks.
+     </p>
+    </div>
+    <div class="card" id="card12">
+     <img alt="Infographic on a quick meditation routine" class="w-full h-48 object-cover rounded mb-4" height="200" src="https://storage.googleapis.com/a1aa/image/2Nq3TLb4t9KAGRVhPlbHQvYYH8n2GxLBqA7jxJuSSPQz1ufJA.jpg" width="300"/>
+     <p class="text-lg">
+      Skill: Learn to meditate for a minute to reduce stress and increase focus.
+     </p>
+    </div>
+    <div class="card" id="card13">
+     <img alt="Image of a person smiling" class="w-full h-48 object-cover rounded mb-4" height="200" src="https://storage.googleapis.com/a1aa/image/SAhyMWuDDarhOF55DdSIPrPv24vm9gjufApvGzyNwMlyrdfTA.jpg" width="300"/>
+     <p class="text-lg">
+      Fact: Smiling can improve your mood and reduce stress.
+     </p>
+    </div>
+    <div class="card" id="card14">
+     <img alt="Image of a timer" class="w-full h-48 object-cover rounded mb-4" height="200" src="https://storage.googleapis.com/a1aa/image/yYBIzYkys7JWD5GRROJP9k4CXoXojItng6v3M2RxqU1z1ufJA.jpg" width="300"/>
+     <p class="text-lg">
+      Tip: Set a timer for tasks to stay focused and productive.
+     </p>
+    </div>
+    <div class="card" id="card15">
+     <img alt="Infographic on a quick stretching routine" class="w-full h-48 object-cover rounded mb-4" height="200" src="https://storage.googleapis.com/a1aa/image/W6DPdwKGwOauGRKWdQREzZb0daAmynalzZzoeI72vPecX7enA.jpg" width="300"/>
+     <p class="text-lg">
+      Skill: Learn to do a quick stretching routine to relieve tension.
+     </p>
+    </div>
+   </div>
+  </div>
+  <script>
+   let currentCard = 1;
+        const totalCards = 15;
+
+        document.addEventListener('wheel', function(event) {
+            if (event.deltaY > 0) {
+                showNextCard();
+            } else {
+                showPreviousCard();
+            }
+        });
+
+        function showNextCard() {
+            if (currentCard < totalCards) {
+                document.getElementById(`card${currentCard}`).classList.remove('active');
+                currentCard++;
+                document.getElementById(`card${currentCard}`).classList.add('active');
+            }
+        }
+
+        function showPreviousCard() {
+            if (currentCard > 1) {
+                document.getElementById(`card${currentCard}`).classList.remove('active');
+                currentCard--;
+                document.getElementById(`card${currentCard}`).classList.add('active');
+            }
+        }
+  </script>
+ </body>
+</html>
